@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 8082
 
 spring:
   profiles:
@@ -26,4 +26,4 @@ spring:
 
 external:
   api:
-    placeHolder: "http://localhost:8080"
+    placeHolder: "http://localhost:8081"
