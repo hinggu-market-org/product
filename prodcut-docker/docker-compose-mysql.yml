@@ -26,6 +26,6 @@ services:
     container_name: "hinggu-product-application"
     restart: always
     ports:
-      - "8082:8082"
+      - "8003:8003"
     depends_on:
       - db
