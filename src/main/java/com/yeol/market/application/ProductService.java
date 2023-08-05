@@ -29,7 +29,7 @@ public class ProductService {
 
     @Transactional(readOnly = true)
     public ProductResponse getProduct(final String uuid) {
-        final Product product = productRepository.findByUuId(uuid)
+        final Product product = productRepository.findByUuid(uuid)
                 .orElseThrow(() -> new NotFoundProductException("해당 상품을 찾을 수 없습니다."));
         return ProductResponse.of(product);
     }

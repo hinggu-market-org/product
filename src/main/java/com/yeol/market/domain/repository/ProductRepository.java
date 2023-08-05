@@ -6,7 +6,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
 public interface ProductRepository extends JpaRepository<Product, Long> {
-    Optional<Product> findByUuId(String menuUuid);
+    Optional<Product> findByUuid(String menuUuid);
     Optional<Product> findByName(String name);
 
 }
