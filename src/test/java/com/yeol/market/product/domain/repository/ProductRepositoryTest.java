@@ -1,24 +1,21 @@
 package com.yeol.market.product.domain.repository;
 
-import static com.yeol.market.product.fixture.ProductFixture.*;
-import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.jupiter.api.Assertions.assertAll;
-
 import com.yeol.market.domain.Product;
 import com.yeol.market.domain.repository.ProductRepository;
-import com.yeol.market.product.config.QuerydslConfig;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.context.annotation.Import;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
+import static com.yeol.market.product.fixture.ProductFixture.*;
+import static org.assertj.core.api.Assertions.assertThat;
+import static org.junit.jupiter.api.Assertions.assertAll;
+
 @SpringBootTest
 @Transactional
-@Import({QuerydslConfig.class})
 class ProductRepositoryTest {
 
     @Autowired

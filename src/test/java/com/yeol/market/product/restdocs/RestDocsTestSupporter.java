@@ -34,12 +34,6 @@ public class RestDocsTestSupporter {
     protected ProductService productService;
 
     @MockBean
-    protected OrderService orderService;
-
-    @MockBean
-    protected PointService pointService;
-
-    @MockBean
     protected RankingService rankingService;
 
     @BeforeEach
