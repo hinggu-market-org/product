@@ -6,12 +6,11 @@ services:
     platform: linux/amd64
     restart: always
     ports:
-      - "3306:3306"
+      - "3308:3308"
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: hinggu-product
-      MYSQL_USER: root
-      MYSQL_PASSWORD: root
+      MYSQL_USER: product
       TZ: Asia/Seoul
     volumes:
       - ./db/mysql/data:/var/lib/mysql

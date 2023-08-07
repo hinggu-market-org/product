@@ -1,8 +1,8 @@
 package com.yeol.market.product.restdocs;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.yeol.market.application.ProductService;
-import com.yeol.market.domain.service.RankingService;
+import com.yeol.market.product.application.ProductService;
+import com.yeol.market.product.domain.service.RankingService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;

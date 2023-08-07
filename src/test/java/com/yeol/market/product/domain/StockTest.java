@@ -3,8 +3,7 @@ package com.yeol.market.product.domain;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
 
-import com.yeol.market.domain.Stock;
-import com.yeol.market.domain.exception.InvalidStockException;
+import com.yeol.market.product.domain.exception.InvalidStockException;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 

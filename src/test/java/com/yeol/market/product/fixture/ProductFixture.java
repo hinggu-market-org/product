@@ -1,7 +1,7 @@
 package com.yeol.market.product.fixture;
 
 
-import com.yeol.market.domain.Product;
+import com.yeol.market.product.domain.Product;
 
 public class ProductFixture {
 

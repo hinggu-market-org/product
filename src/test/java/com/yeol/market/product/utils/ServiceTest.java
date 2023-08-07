@@ -1,9 +1,9 @@
 package com.yeol.market.product.utils;
 
-import com.yeol.market.application.ProductService;
-import com.yeol.market.domain.Product;
-import com.yeol.market.domain.repository.ProductRepository;
-import com.yeol.market.domain.service.RankingService;
+import com.yeol.market.product.application.ProductService;
+import com.yeol.market.product.domain.Product;
+import com.yeol.market.product.domain.repository.ProductRepository;
+import com.yeol.market.product.domain.service.RankingService;
 import com.yeol.market.product.config.DatabaseCleaner;
 import org.junit.jupiter.api.AfterEach;
 import org.springframework.beans.factory.annotation.Autowired;

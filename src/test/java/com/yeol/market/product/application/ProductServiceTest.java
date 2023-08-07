@@ -5,8 +5,8 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
 import static org.junit.jupiter.api.Assertions.assertAll;
 
-import com.yeol.market.application.exception.NotFoundProductException;
-import com.yeol.market.domain.Product;
+import com.yeol.market.product.application.exception.NotFoundProductException;
+import com.yeol.market.product.domain.Product;
 import com.yeol.market.product.utils.ServiceTest;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;

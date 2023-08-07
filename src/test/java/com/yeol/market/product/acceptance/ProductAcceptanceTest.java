@@ -3,7 +3,7 @@ package com.yeol.market.product.acceptance;
 import static org.junit.jupiter.api.Assertions.assertAll;
 import java.util.stream.Collectors;
 
-import com.yeol.market.application.dto.ProductResponse;
+import com.yeol.market.product.application.dto.ProductResponse;
 import com.yeol.market.product.utils.AcceptanceTest;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;

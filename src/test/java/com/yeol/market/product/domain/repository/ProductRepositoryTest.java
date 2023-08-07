@@ -1,7 +1,6 @@
 package com.yeol.market.product.domain.repository;
 
-import com.yeol.market.domain.Product;
-import com.yeol.market.domain.repository.ProductRepository;
+import com.yeol.market.product.domain.Product;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -9,7 +9,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 import java.util.List;
 
-import com.yeol.market.application.dto.ProductResponse;
+import com.yeol.market.product.application.dto.ProductResponse;
 import com.yeol.market.product.restdocs.RestDocsTestSupporter;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
