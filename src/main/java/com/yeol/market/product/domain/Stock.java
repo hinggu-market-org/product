@@ -1,6 +1,6 @@
-package com.yeol.market.domain;
+package com.yeol.market.product.domain;
 
-import com.yeol.market.domain.exception.InvalidStockException;
+import com.yeol.market.product.domain.exception.InvalidStockException;
 import jakarta.persistence.Column;
 import jakarta.persistence.Embeddable;
 import lombok.Getter;

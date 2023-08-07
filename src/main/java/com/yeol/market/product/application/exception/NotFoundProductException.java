@@ -1,6 +1,6 @@
-package com.yeol.market.application.exception;
+package com.yeol.market.product.application.exception;
 
-import com.yeol.market.exception.CoffeeShopException;
+import com.yeol.market.product.exception.CoffeeShopException;
 import org.springframework.http.HttpStatus;
 
 public class NotFoundProductException extends CoffeeShopException {

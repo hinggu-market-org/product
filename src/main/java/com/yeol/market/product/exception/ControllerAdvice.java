@@ -1,4 +1,4 @@
-package com.yeol.market.exception;
+package com.yeol.market.product.exception;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;

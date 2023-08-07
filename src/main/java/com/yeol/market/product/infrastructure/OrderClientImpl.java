@@ -1,7 +1,7 @@
-package com.yeol.market.infrastructure;
+package com.yeol.market.product.infrastructure;
 
-import com.yeol.market.application.OrderClient;
-import com.yeol.market.application.dto.Top3NameResponse;
+import com.yeol.market.product.application.OrderClient;
+import com.yeol.market.product.application.dto.Top3NameResponse;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;

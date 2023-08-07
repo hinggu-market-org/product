@@ -1,6 +1,5 @@
-package com.yeol.market.domain;
+package com.yeol.market.product.domain;
 
-import java.util.Objects;
 import jakarta.persistence.Column;
 import jakarta.persistence.Embedded;
 import jakarta.persistence.Entity;

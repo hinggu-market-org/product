@@ -1,10 +1,10 @@
-package com.yeol.market.domain.service;
+package com.yeol.market.product.domain.service;
 
-import com.yeol.market.application.OrderClient;
-import com.yeol.market.application.dto.ProductResponse;
-import com.yeol.market.application.dto.Top3NameResponse;
-import com.yeol.market.domain.Product;
-import com.yeol.market.domain.repository.ProductRepository;
+import com.yeol.market.product.application.OrderClient;
+import com.yeol.market.product.application.dto.ProductResponse;
+import com.yeol.market.product.application.dto.Top3NameResponse;
+import com.yeol.market.product.domain.Product;
+import com.yeol.market.product.domain.repository.ProductRepository;
 import java.util.List;
 import java.util.stream.Collectors;
 

@@ -1,4 +1,4 @@
-package com.yeol.market.application.dto;
+package com.yeol.market.product.application.dto;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;

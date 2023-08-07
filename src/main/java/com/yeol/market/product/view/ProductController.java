@@ -1,8 +1,8 @@
-package com.yeol.market.view;
+package com.yeol.market.product.view;
 
-import com.yeol.market.application.ProductService;
-import com.yeol.market.application.dto.ProductResponse;
-import com.yeol.market.domain.service.RankingService;
+import com.yeol.market.product.application.ProductService;
+import com.yeol.market.product.application.dto.ProductResponse;
+import com.yeol.market.product.domain.service.RankingService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
